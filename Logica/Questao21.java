@@ -8,7 +8,7 @@ public class Questao21 {
         System.out.println("Informe a aréa do local a ser pintado em metros quadrados: ");
         area = scanner.nextDouble();
         double litros = area / 3;
-        double latas = litros / 18;
+        int latas = (litros / 18) % 1 == 0 ? (int) litros / 18 : (int) (litros / 18) + 1;
         double custo = latas * 80;
         System.out.println("Quantidade de latas: " + latas);
         System.out.println("Custo: " + custo);
