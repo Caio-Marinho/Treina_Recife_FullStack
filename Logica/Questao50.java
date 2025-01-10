@@ -29,5 +29,6 @@ public class Questao50 {
             double equacao2 = (-b - Math.sqrt(delta))/(2*a);
             System.out.printf("A equação tem duas raízes reais %.2f e %.2f",equacao1,equacao2);
         }
+        sc.close();
     }
 }
