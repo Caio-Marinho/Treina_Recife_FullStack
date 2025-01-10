@@ -25,6 +25,7 @@ public class Questao52 {
         } catch (NumberFormatException e) {
             System.out.println("Data inválida,Use o formato dd/mm/aaaa.");
         }
+        sc.close();
     }
     public static boolean dataValida(int dia, int mes, int ano) {
         if (mes < 1 || mes > 12) {
