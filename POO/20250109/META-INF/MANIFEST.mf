@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Build-Jdk: javac 21.0.5
+Build-By: Caio
+Class-Path: aula.jar
+Created-By: javac 21.0.5
+Main-Class: aula
