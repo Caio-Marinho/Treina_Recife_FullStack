@@ -1,7 +1,7 @@
 package Logica;
 import java.util.Scanner;
 
-public class Questao069 {
+public class Questao069LR {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double nota;

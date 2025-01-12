@@ -1,6 +1,6 @@
 package Logica;
 
-public class Questao090 {
+public class Questao089LR {
     public static void main(String[] args) {
         int a=1,b=1,c=0;
         System.out.print(a + " " + b + " ");

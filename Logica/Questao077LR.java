@@ -1,6 +1,6 @@
 package Logica;
 
-public class Questao077 {
+public class Questao077LR {
     public static void main(String[] args) {
         for (int i = 1; i<= 50; i++){
             if (i % 2 != 0){

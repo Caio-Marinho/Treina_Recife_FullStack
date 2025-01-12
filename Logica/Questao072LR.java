@@ -1,6 +1,6 @@
 package Logica;
 
-public class Questao072 {
+public class Questao072LR {
     public static void main(String[] args) {
         int paisA,paisB,anos=0;
         double taxaCrescimentoA, taxaCrescimentoB,populacaoA, populacaoB;

@@ -1,7 +1,7 @@
 package Logica;
 import java.util.Scanner;
 
-public class Questao080 {
+public class Questao080LR {
   public static void main(String[] args) {
     double num,soma = 0,subtracao = 0,multiplicacao = 0,divisao = 0;
     int operacao;

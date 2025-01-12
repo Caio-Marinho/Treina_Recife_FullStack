@@ -1,7 +1,7 @@
 package Logica;
 
 
-public class Questao074 {
+public class Questao074LR {
     public static void main(String[] args) {
         for (int i = 1;  i<=20; i++){
             System.out.println(i);

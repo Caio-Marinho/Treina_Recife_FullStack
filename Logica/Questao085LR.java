@@ -2,7 +2,7 @@ package Logica;
 
 import java.util.Scanner;
 
-public class Questao085 {
+public class Questao085LR {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num,fatorial = 1;

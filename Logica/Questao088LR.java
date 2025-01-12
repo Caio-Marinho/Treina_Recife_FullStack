@@ -3,7 +3,7 @@ package Logica;
 
 import java.util.Scanner;
 
-public class Questao089 {
+public class Questao088LR {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n, a = 1, b = 1, c;

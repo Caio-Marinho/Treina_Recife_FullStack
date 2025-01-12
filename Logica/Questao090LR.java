@@ -2,22 +2,16 @@ package Logica;
 
 import java.util.Scanner;
 
-public class Questao092 {
+public class Questao090LR {
     public static void main(String[] args) {
-        
         Scanner sc = new Scanner(System.in);
-
         int qtdNumeros,soma=0,numero,maior=0,menor=0;
         System.out.println("Quantos números deseja informar:");
         qtdNumeros = sc.nextInt();
-        for (int i = 0; i < qtdNumeros; i++) {
-            System.out.printf("Digite o %dº número: ",i+1);
+        for (int i = 1; i <= qtdNumeros; i++) {
+            System.out.printf("Digite o %dº número: ",i);
             numero = sc.nextInt();
-            while (numero < 0 || numero > 1000) {
-                System.out.printf("Número inválido, digite um número entre 0 e 1000: ");
-                numero = sc.nextInt();
-            }
-            if (i == 0) {
+            if (i == 1) {
                 maior = numero;
                 menor = numero;
             } else if (numero > maior) {
