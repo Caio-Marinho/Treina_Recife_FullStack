@@ -9,10 +9,15 @@ public class Questao066ED {
         num = sc.nextLine();
         numInvertido = new StringBuilder(num).reverse().toString();
         sc.close();
-        if (num.equals(numInvertido)) {
-            System.out.println("O número digitado é palíndromo.");
+        if (num.length() == 5 && num.matches("\\d+")){
+            if (num.equals(numInvertido)) {
+                System.out.println("O número digitado é palíndromo.");
+            } else {
+                System.out.println("O número digitado não é palíndromo.");
+            }
         } else {
-            System.out.println("O número digitado não é palíndromo.");
+            System.out.println("Erro, Você deve digitar um número de exatamente 5 dígitos.");
         }
+        
     }
 }
