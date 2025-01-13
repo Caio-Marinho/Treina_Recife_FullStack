@@ -20,4 +20,13 @@ public class Questao066ED {
         }
         
     }
+    public static boolean isPalindromo(String num) {
+        int numero = num.length();
+        for (int i = 0; i < numero / 2; i++) {
+            if (num.charAt(i) != num.charAt(numero - i - 1)) {
+                return false;
+            }
+        }
+        return true;
+    }
 }
