@@ -28,13 +28,13 @@ public class Questao071LR {
                 System.out.println("Idade invalida, digite novamente: ");
                 idade = sc.nextInt();
             } else if (salario <= 0) {
-                System.out.println("Salario invalido, digite novamente: \nM - Masculino \nF - Feminino");
+                System.out.println("Salario invalido, digite novamente: ");
                 salario = sc.nextDouble();
             } else if (sexo != 'M' && sexo != 'F') {
-                System.out.println("Sexo invalido, digite novamente: \nS - Solteiro \nC - Casado \nV - Viuvo \nD - Divorciado");
+                System.out.println("Sexo invalido, digite novamente: \nM - Masculino \nF - Feminino");
                 sexo = sc.next().toUpperCase().charAt(0);
             } else if (estadoCivil != 'S' && estadoCivil != 'C' && estadoCivil != 'V' && estadoCivil != 'D') {
-                System.out.println("Estado civil invalido, digite novamente: ");
+                System.out.println("Estado civil invalido, digite novamente: \nS - Solteiro \nC - Casado \nV - Viuvo \nD - Divorciado");
                 estadoCivil = sc.next().toUpperCase().charAt(0);
             }
         }
