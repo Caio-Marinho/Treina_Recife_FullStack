@@ -11,7 +11,7 @@ public class Questao070LR {
             System.out.println("Digite a senha do usuário: ");
             senha = sc.nextLine();
             if (nomeUsuario.equals(senha)){
-                System.out.println("Erro, o nome do usuário deve ser diferente da senha.");
+                System.out.println("Erro, A senha não pode ser igual ao nome do usuário");
             }
         } while (nomeUsuario.equals(senha));
         System.out.println("Nome do usuário: "+nomeUsuario);
