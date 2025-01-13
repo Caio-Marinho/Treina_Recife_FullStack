@@ -38,12 +38,25 @@ public class Questao071LR {
                 estadoCivil = sc.next().toUpperCase().charAt(0);
             }
         }
+        
         sc.close();
         System.out.println("Nome: " + nome);
         System.out.println("Idade: " + idade);
         System.out.println("Salario: " + salario);
-        System.out.println("Sexo: " + sexo);
-        System.out.println("Estado civil: " + estadoCivil);
+        if (sexo == 'M') {
+            System.out.println("Sexo: Masculino");
+        } else {
+            System.out.println("Sexo: Feminino");
+        }
+        if (estadoCivil == 'S') {
+            System.out.println("Estado Civil: Solteiro");
+        } else if (estadoCivil == 'C') {
+            System.out.println("Estado Civil: Casado");
+        } else if (estadoCivil == 'V') {
+            System.out.println("Estado Civil: Viuvo");
+        } else {
+            System.out.println("Estado Civil: Divorciado");
+        }
     }
     
 }
