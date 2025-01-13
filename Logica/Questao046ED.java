@@ -16,9 +16,9 @@ public class Questao046ED {
      sc.close();
         if (salarioBruto <= 900){
             impostoRenda = 0;
-        } else if (salarioBruto > 900 && salarioBruto <=1500){
+        } else if (salarioBruto <=1500){
             impostoRenda = 0.05;
-        } else if (salarioBruto>1500 && salarioBruto <=2500){
+        } else if (salarioBruto <=2500){
             impostoRenda = 0.1;
         }else{
             impostoRenda = 0.2;
@@ -27,7 +27,7 @@ public class Questao046ED {
         descontoImpostoRenda = impostoRenda * salarioBruto;
         descontoSindicato = salarioBruto * sindicato;
         descontoFGTS = salarioBruto * fgts;
-        totalDescontado = descontoFGTS + descontoInss  + descontoSindicato + impostoRenda;
+        totalDescontado = descontoInss  + descontoSindicato + descontoImpostoRenda;
         salarioLiquido = salarioBruto - totalDescontado;
         System.out.printf("Horas Trabalhadas no mês: %.2f\n",horaMes);
         System.out.printf("Salario por hora: %.2f\n",valorHora);
