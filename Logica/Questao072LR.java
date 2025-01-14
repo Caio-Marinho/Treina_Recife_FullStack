@@ -8,14 +8,14 @@ public class Questao072LR {
         paisB = 200000;
         taxaCrescimentoA = 1.03;
         taxaCrescimentoB = 1.015;
-        while (paisA <= paisB){ 
+        while (paisA < paisB){ 
             populacaoA = paisA * taxaCrescimentoA;
             populacaoB = paisB * taxaCrescimentoB;
             paisA = (int) populacaoA;
             paisB = (int) populacaoB;
             anos++;
         }
-        System.out.println("Levou " + anos + " anos para que o país A ultrapasse o país B");
+        System.out.println("Levou " + anos + " anos para que o pais A ultrapasse o pais B");
         System.out.println("Pais A: " + paisA + " Habitantes, Pais B: " + paisB + " Habitantes");
     }
 }
