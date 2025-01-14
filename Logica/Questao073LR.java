@@ -17,7 +17,7 @@ public class Questao073LR {
         porcentagemTaxaCrescimentoA = (taxaCrescimentoA + 100)/100;
         porcentagemTaxaCrescimentoB = (taxaCrescimentoB + 100)/100;
         sc.close();
-        while (paisA <= paisB){ 
+        while (paisA < paisB){ 
             populacaoA = paisA * porcentagemTaxaCrescimentoA;
             populacaoB = paisB * porcentagemTaxaCrescimentoB;
             paisA = (int) populacaoA;
