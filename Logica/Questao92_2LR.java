@@ -11,9 +11,7 @@ public class Questao92_2LR {
         while (raiz * raiz <= numero) {
             raiz++;
         }
-        System.out.println("Raiz: "+raiz);
         raiz--;
-        System.out.println("Raiz: "+raiz);
         for (int i = 1; i <= raiz; i++) {
             if (numero % i == 0) {
                 primo++;
