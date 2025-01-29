@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/mario_logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="module" defer src="./js/script.js"></script>
+    <title>Jogo do Mario</title>
+</head>
+<body>
+
+    <main class="cenario">
+
+        <header class="header">
+
+            <div class="wrapper-topo">
+
+                <div class="coluna">
+
+                    <span class="titulo">Jogador</span>
+                    <span class="texto verde" id="txtNomeJogador">Nome Jogador</span>
+
+                </div>
+                <div class="coluna">
+
+                    <img src="./img/logo.png" alt="" class="img-logo">
+
+                </div>
+                <div class="placar">
+
+                    <div class="coluna">
+
+                        <span class="titulo">Moedas</span>
+                        <span class="texto amarela" id="txtMoedas">00</span>
+                        
+                    </div>
+                    <div class="coluna">
+
+                        <span class="titulo">Estrelas</span>
+                        <span class="texto vermelha" id="txtEstrelas">00</span>
+                        
+                    </div>
+                    <div class="coluna">
+
+                        <span class="titulo">Tempo</span>
+                        <span class="texto verde" id="txtTempo">00</span>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+
+        </header>
+
+        <img src="./img/clouds.png" alt="" class="img-nuvem">
+        <img src="./img/clouds.png" alt="" class="img-nuvem img-nuvem2">
+        <img src="./img/mario.gif" alt="" class="img-mario" id="img-mario">
+        <img src="./img/pipe.png" alt="" class="img-tubo" id="img-tubo">
+        <img src="./img/bullet.png" alt="" class="img-bala" id="img-bala">
+        <img src="./img/moeda.png" alt="" class="img-moeda" id="img-moeda">
+        <img src="./img/moeda.png" alt="" class="img-moeda img-moeda2" id="img-moeda">
+        <img src="./img/moeda.png" alt="" class="img-moeda img-moeda3" id="img-moeda">
+        <img src="./img/estrela.png" alt="" class="img-estrela" id="img-estrela">
+        <img src="./img/estrela.png" alt="" class="img-estrela img-estrela2" id="img-estrela">
+        
+    </main>
+    
+    <section class="modal habilitar">
+        <section class="modal-login active">
+            <h1 class="titulo">
+                <span class="azul">Pronto</span>
+                <span class="amarela">para</span>
+                <span class="vermelha">um</span>
+                <span class="verde">novo</span>
+                <span class="azul">desafio?</span>
+            </h1>
+            <input type="text" class="input-jogador" id="inputJogador" placeholder="Jogador..." onfocus="true">
+
+            <button class="btn-modal btn-start btn-red-tr" id="btnStart">Iniciar jogo!</button>
+
+            <p class="regras">Use a tecla <span class="vermelha">"Arrow UP"</span>, <span class="verde">"Arrow Down"</span> ou <span class="azul">"Space"</span> do teclado para mover o mario no jogo.</p>
+
+            <img src="./img/mario3.png" alt="" class="img-mario mario3">
+
+        </section>
+
+
+        <section class="modal-game-over"></section>
+        <section class="modal-ranking"></section>
+    </section>
+</body>
+</html>
