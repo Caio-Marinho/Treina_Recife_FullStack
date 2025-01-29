@@ -1,75 +1,73 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@keyframes pipe-animation {
+  from {
+    right: -80px;
+  }
+  to {
+    right: 100%;
+  }
 }
-
-.game-board{
-    width: 100%;
-    height: 500px;
-    border-bottom: 5px solid rgb(35, 160, 35);
-    margin: 0 auto;
-    position: relative;
-    overflow: hidden;
-    background: linear-gradient(#87CEEB, #E0F8FF);
-}
-
-.pipe{
-    position: absolute;
+@keyframes jump {
+  0% {
     bottom: 0;
-    width: 80px;
-    animation: pipe-animation 1.5s infinite linear;
-}
-
-.mario{
-    width: 150px;
-    position: absolute;
+  }
+  40% {
+    bottom: 180px;
+  }
+  50% {
+    bottom: 180px;
+  }
+  60% {
+    bottom: 180px;
+  }
+  100% {
     bottom: 0;
+  }
+}
+@keyframes clouds-animation {
+  0% {
+    right: -550px;
+  }
+  100% {
+    right: 100%;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.jump{
-    animation: jump 500ms ease-in-out;
+.game-board {
+  width: 100%;
+  height: 500px;
+  border-bottom: 5px solid rgb(35, 160, 35);
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(#87CEEB, #fff);
 }
 
-.clouds{
-    position: absolute;
-    width: 550px;
-    animation: clouds-animation 20s infinite linear;
+.pipe {
+  position: absolute;
+  bottom: 0;
+  width: 80px;
+  animation: pipe-animation 1.5s infinite linear;
 }
 
-
-@keyframes pipe-animation{
-    from{
-        right: -80px;
-    }
-    to {
-        right: 100%;
-    }
+.mario {
+  width: 150px;
+  position: absolute;
+  bottom: 0;
 }
 
-@keyframes jump{
-    0% {
-        bottom: 0;
-    }
-    40% {
-        bottom: 180px;
-    }
-    50% {
-        bottom: 180px;
-    }
-    60% {
-        bottom: 180px;
-    }
-    100% {
-        bottom: 0;
-    }
+.jump {
+  animation: jump 500ms ease-in-out;
 }
 
-@keyframes clouds-animation{
-    0% {
-        right: -550px;
-    }
-    100% {
-        right: 100%;
-    }
+.clouds {
+  position: absolute;
+  width: 550px;
+  animation: clouds-animation 20s infinite linear;
 }
+
+/*# sourceMappingURL=style.css.map */

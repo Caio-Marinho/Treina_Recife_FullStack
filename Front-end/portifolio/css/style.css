@@ -42,17 +42,18 @@
     justify-content: center;
 }
 
-.facebook{
-    width: 150px;
-    height: 150px;
+.gmail{
+    position: relative;
+    width: 120px;
+    height: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
-    left: 1064px;
-    top: 529px;
+    left: 15px;
+    top: 15px;
 }
 
-.facebook:hover{
+.gmail:hover{
     filter: invert(1);
 }
 
@@ -98,19 +99,19 @@
     filter: invert(1);
 }
 
-.tiktok{
+.whatsapp{
     position: relative;
-    width: 130px;
-    height: 130px;
+    width: 120px;
+    height: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
     bottom: 70px;
     top: 10px;
-    left: 10px;
+    left: 20px;
 }
 
-.tiktok:hover{
+.whatsapp:hover{
     filter: invert(1);
 }
 

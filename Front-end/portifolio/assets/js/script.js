@@ -1,8 +1,8 @@
 // Lista de caminhos dos vídeos
 const videoPaths = [
-    '../../assets/media/praia.mp4',
-    '../../assets/media/CACHOEIRA.mp4',
-    '../../assets/media/SOL.mp4'
+    '../assets/media/praia.mp4',
+    '../assets/media/cachoeira.mp4',
+    '../assets/media/sol.mp4'
   ];
   
   // Referências ao elemento de vídeo e ao <source>
